@@ -238,6 +238,8 @@ header .header nav ul li a {
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     gap: 25px;
+    width: 50%;
+    margin: 0 auto;
 }
 .contacts .contactsBlock .info-block .item {
     display: flex;
