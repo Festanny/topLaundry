@@ -4,79 +4,144 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WowNews</title>
+    <title>Top Laundry</title>
     <link rel="icon" type="image/png" href="favicon.png" />
     <link rel="stylesheet" href="assets/css/main.css">
     <script src="https://kit.fontawesome.com/0396950dcd.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    <main class="mainPage">
-        <div class="siteBlock">
-            <div class="header">
-                <div class="logo-nav">
-                    <div class="logo">
-                        <img src="assets/img/other/logo.svg" alt="logo">
-                    </div>
-                    <nav>
-                        <ul>
-                            <li><a href="#">Главная</a></li>
-                            <li><a href="#">Вход/регистрация</a></li>
-                            <li><a href="#">Личный кабинет</a></li>
-                            <li><a href="#">Новости</a></li>
-                            <li><a href="#">Мои новости</a></li>
-                            <li><a href="#">Мои одобренные новости</a></li>
-                            <li><a href="#">Избранное</a></li>
-                            <li><a href="#">Выход</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="search-weather">
-                    <div class="searchCity">Тут поиск города</div>
-                    <div class="weatherCity">
-                        <img src="assets/img/other/weather.png" alt="weather">
-                        <div class="weather-info"><span>18</span>°C</div>
-                    </div>
-                </div>
-            </div>
+<body class="mainPage">
 
-            <div class="blockMain">
-                <div class="head">
-                    <span class="titlePage">Новости</span>
-                    <div class="searchNews">
-                        <label for="searchNews">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                            <input type="text" id="searchNews">
-                        </label>
-                    </div>
-                </div>
-                <div class="newsMain">
-                    <div class="info-block">
-                        <div class="item">
-                            <div class="imgNews"></div>
-                            <div class="textNewsBlock">
-                                <div class="nameNewsBlock">
-                                    <div class="nameNews"></div>
-                                    <div class="favouritesNews"></div>
-                                </div>
-                                <div class="textNews"></div>
-                                <div class="namePeople-date">
-                                    <div class="namePeople"></div>
-                                    <div class="dateNews"></div>
-                                </div>
-                            </div>
+    <header>
+        <div class="bgLine2"></div>
+        <div class="header container">
+            <a href="index.html" class="logo">
+                <img src="assets/img/other/logo.svg" alt="logo">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html#algorithm">Алгоритм</a></li>
+                    <li><a href="index.html#advantages">Преимущества</a></li>
+                    <li><a href="index.html#faq">FAQ</a></li>
+                    <li><a href="index.html#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="clearing" id="algorithm">
+            <div class="bgLine"></div>
+            <div class="clearingBlockMain container">
+                <div class="clearingBlock">
+                    <div class="item info">
+                        <img src="assets/img/other/logo-min.svg" alt="logo">
+                        <div class="text">
+                            <div class="nameCompany">Top Laundry</div>
+                            <span>Очистка ваших биткоинов в один клик</span>
                         </div>
-                        <div class="item">2</div>
-                        <div class="item">3</div>
                     </div>
-                    <div class="news-item"></div>
+                    <div class="item fields">
+                        <form action="">
+                            <input type="text" placeholder="Первый адрес" name="firstaddress">
+                            <input type="text" placeholder="Второй адрес" name="secondaddress">
+                            <button type="button" id="btn_application" class="btn">Очистить</button>
+                        </form>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
+        <section class="howWorks" id="advantages">
+            <div class="howWorksBlock">
+                <div class="nameCompany">Top &#160; Laundry</div>
+                <span class="_title">Как это работает?</span>
+                <img src="assets/img/other/tree.svg" alt="">
+                <div class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, iusto fuga sed libero dolore, repellat distinctio at quidem error officiis consequatur, ducimus ea aliquam omnis possimus ad eveniet aliquid soluta!
+                </div>
+            </div>
+        </section>
+        <section class="textInfoSection">
+            <div class="textInfoBlockSection">
+                <span>Clear</span>
+                <span>Fast</span>
+                <span>ZAEBIS’</span>
+            </div>
+        </section>
+        <section class="faq" id="faq">
+            <div class="faqBlock container">
+                <div class="_titleGr"><span>FAQ</span></div>
+                <div class="info-block">
+                    <div class="item">
+                        <div class="question">Сколько по времени происходит очистка?</div>
+                        <div class="answer">3 года, 9 месяцев, 6 дней, 3 часа, 3 минуты, 2 секунды</div>
+                    </div>
+                    <div class="item">
+                        <div class="question">Сколько по времени происходит очистка?</div>
+                        <div class="answer">3 года, 9 месяцев, 6 дней, 3 часа, 3 минуты, 2 секунды</div>
+                    </div>
+                    <div class="item">
+                        <div class="question">Сколько по времени происходит очистка?</div>
+                        <div class="answer">3 года, 9 месяцев, 6 дней, 3 часа, 3 минуты, 2 секунды</div>
+                    </div>
+                    <div class="item">
+                        <div class="question">Сколько по времени происходит очистка?</div>
+                        <div class="answer">3 года, 9 месяцев, 6 дней, 3 часа, 3 минуты, 2 секунды</div>
+                    </div>
+                    <div class="item">
+                        <div class="question">Сколько по времени происходит очистка?</div>
+                        <div class="answer">3 года, 9 месяцев, 6 дней, 3 часа, 3 минуты, 2 секунды</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contacts" id="contacts">
+            <div class="contactsBlock container">
+                <div class="_titleGr"><span>Контакты</span></div>
+                <div class="info-block">
+                    <a href="#" class="item">
+                        <img src="assets/img/soc/tg.svg" alt="">
+                    </a>
+                    <a href="#" class="item">
+                        <img src="assets/img/soc/email.svg" alt="">
+                    </a>
+                    <a href="#" class="item">
+                        <img src="assets/img/soc/key.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <footer>
+        <div class="footerBg">
+            <div class="footer container">
+                <div class="info-block">
+                    <div class="item logo-soc">
+                        <div class="logo">
+                            <img src="assets/img/other/logo.svg" alt="">
+                        </div>
+                        <div class="soc">
+                            <a href="#"><img src="assets/img/soc/tg.svg" alt="tg"></a>
+                            <a href="#"><img src="assets/img/soc/email.svg" alt="email"></a>
+                            <a href="#"><img src="assets/img/soc/key.svg" alt="key"></a>
+                        </div>
+                    </div>
+                    <div class="item menu">
+                        <ul>
+                            <li><a href="#algorithm">Как это работает?</a></li>
+                            <li><a href="#advantages">Преимущества</a></li>
+                            <li><a href="#faq">FAQ</a></li>
+                            <li><a href="#contacts">Контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="bgLine3"></div>
+        </div>
+    </footer>
 
     <!-- scripts -->
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <script src="assets/js/main.js"></script>
 </body>
 </html>
