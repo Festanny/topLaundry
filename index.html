@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WowNews</title>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="https://kit.fontawesome.com/0396950dcd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main class="mainPage">
+        <div class="siteBlock">
+            <div class="header">
+                <div class="logo-nav">
+                    <div class="logo">
+                        <img src="assets/img/other/logo.svg" alt="logo">
+                    </div>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">Вход/регистрация</a></li>
+                            <li><a href="#">Личный кабинет</a></li>
+                            <li><a href="#">Новости</a></li>
+                            <li><a href="#">Мои новости</a></li>
+                            <li><a href="#">Мои одобренные новости</a></li>
+                            <li><a href="#">Избранное</a></li>
+                            <li><a href="#">Выход</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="search-weather">
+                    <div class="searchCity">Тут поиск города</div>
+                    <div class="weatherCity">
+                        <img src="assets/img/other/weather.png" alt="weather">
+                        <div class="weather-info"><span>18</span>°C</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="blockMain">
+                <div class="head">
+                    <span class="titlePage">Новости</span>
+                    <div class="searchNews">
+                        <label for="searchNews">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="text" id="searchNews">
+                        </label>
+                    </div>
+                </div>
+                <div class="newsMain">
+                    <div class="info-block">
+                        <div class="item">
+                            <div class="imgNews"></div>
+                            <div class="textNewsBlock">
+                                <div class="nameNewsBlock">
+                                    <div class="nameNews"></div>
+                                    <div class="favouritesNews"></div>
+                                </div>
+                                <div class="textNews"></div>
+                                <div class="namePeople-date">
+                                    <div class="namePeople"></div>
+                                    <div class="dateNews"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">2</div>
+                        <div class="item">3</div>
+                    </div>
+                    <div class="news-item"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
