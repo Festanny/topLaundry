@@ -1,0 +1,313 @@
+@media screen and (max-width: 1680px) {
+    .container {
+        width: 1200px;
+    }
+    .clearing .bgLine {
+        left: -150px;
+    }
+    .translation .translationBlock .info-block {
+        display: flex;
+        flex-direction: column;
+    }
+    .translation .translationBlock .info-block .item.arrow {
+        transform: rotate(90deg);
+    }
+}
+@media screen and (max-width: 1280px) {
+    .container {
+        width: 1000px;
+    }
+    ._titleGr span,
+    .textInfoSection .textInfoBlockSection {
+        font-size: 130px;
+    }
+    ._titleGr {
+        margin-bottom: -40px;
+    }
+    header .header nav ul {
+        gap: 30px;
+    }
+    .howWorks .howWorksBlock img {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 1050px) {
+    .container {
+        width: 90%;
+    }
+    header .header .logo {
+        width: 250px;
+    }
+    .clearing .clearingBlock .item.info img {
+        width: 200px;
+    }
+    .clearing .bgLine,
+    .howWorks .howWorksBlock .nameCompany {
+        display: none;
+    }
+    .howWorks, .textInfoSection {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .howWorks .howWorksBlock {
+        border: 4px solid var(--white);
+        border-radius: 37px;
+    }
+    section {
+        padding: 80px 0;
+    }
+    header .header nav ul li a,
+    footer .footer .item.menu ul li {
+        font-size: 18px;
+    }
+    .contacts .contactsBlock .info-block {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 900px) {
+    header .header {
+        justify-content: center;
+        gap: 50px;
+    }
+    header .header .logo {
+        width: 200px;
+    }
+    .clearing .clearingBlock .item.info img {
+        width: 150px;
+    }
+    section {
+        padding: 60px 0;
+    }
+    ._titleGr span, .textInfoSection .textInfoBlockSection {
+        font-size: 110px;
+    }
+    .contacts .contactsBlock .info-block .item img {
+        width: 50px;
+        height: 40px;
+    }
+}
+@media screen and (max-width: 700px) {
+    ._titleGr span, .textInfoSection .textInfoBlockSection {
+        font-size: 95px;
+    }
+    header .header {
+        gap: 30px;
+        padding: 30px 0;
+    }
+    .clearing .clearingBlock .item.info .text .nameCompany {
+        font-size: 25px;
+    }
+    .clearing .clearingBlock .item.fields button {
+        font-size: 16px;
+    }
+    .howWorks .howWorksBlock {
+        padding: 30px 50px;
+    }
+    .clearing .clearingBlockMain .clearingBlock {
+        width: 100%;
+    }
+    footer {
+        margin-top: 100px;
+    }
+    footer .footer .item.logo-soc .logo {
+        width: 250px;
+    }
+    footer .footer .item.logo-soc .soc > a img {
+        width: 30px;
+        height: 30px;
+    }
+    ._titleGr {
+        margin-bottom: -35px;
+    }
+    .faq .faqBlock .info-block .item {
+        padding: 25px;
+    }
+    .translation .translationBlock .info-block .item.send, .translation .translationBlock .info-block .item.receive {
+        padding: 23px 25px;
+    }
+}
+@media screen and (max-width: 580px) {
+    ._titleGr span, .textInfoSection .textInfoBlockSection {
+        font-size: 75px;
+    }
+    footer .footer .item.logo-soc .logo {
+        width: 200px;
+    }
+    footer .footer {
+        padding: 50px 0;
+    }
+    .contacts .contactsBlock .info-block .item img {
+        width: 35px;
+    }
+    ._titleGr {
+        margin-bottom: -30px;
+    }
+    section {
+        padding: 40px 0;
+    }
+    .howWorks .howWorksBlock {
+        border: 0;
+        padding: 0;
+    }
+    .howWorks .howWorksBlock img {
+        width: 100%;
+    }
+    header .header nav ul li a, footer .footer .item.menu ul li {
+        font-size: 16px;
+    }
+    footer .footer .item.menu ul {
+        gap: 20px;
+    }
+    footer .footer .info-block {
+        align-items:flex-start
+    }
+    footer .footer .info-block .item.menu {
+        margin-top: 10px;
+    }
+    footer .footer .item.logo-soc .soc > a {
+        padding: 7px 30px;
+    }
+    footer .footer .item.logo-soc .logo {
+        margin-bottom: 30px;
+    }
+    header .header nav {
+        display: none;
+    }
+    .translation .translationBlock .info-block {
+        gap: 35px;
+    }
+}
+@media screen and (max-width: 490px) {
+    body {
+        font-size: 15px;
+    }
+    ._titleGr span, .textInfoSection .textInfoBlockSection {
+        font-size: 65px;
+    }
+    .contacts .contactsBlock .info-block .item img {
+        width: 25px;
+        height: 30px;
+    }
+    .contacts .contactsBlock .info-block .item {
+        padding: 5px 20px;
+        border-radius: 7px
+    }
+    ._titleGr {
+        margin-bottom: -25px;
+    }
+    .contacts .contactsBlock .info-block {
+        gap: 8px;
+    }
+    .textInfoSection .textInfoBlockSection span {
+        font-size: 80px;
+    }
+    footer .footer .item.logo-soc .soc > a img {
+        width: 15px;
+        height: 15px;
+    }
+}
+@media screen and (max-width: 430px) {
+    body {
+        font-size: 14px;
+    }
+    ._titleGr span, .textInfoSection .textInfoBlockSection {
+        font-size: 56px;
+    }
+    ._titleGr {
+        margin-bottom: -20px;
+    }
+    .clearing .clearingBlock .item.info img {
+        width: 130px;
+    }
+    header .header .logo {
+        width: 140px;
+    }
+    header .header {
+        padding: 24px 0;
+    }
+    section {
+        padding: 30px 0;
+    }
+    .clearing .clearingBlock .item.info .text .nameCompany {
+        font-size: 17px;
+    }
+    .clearing .clearingBlock .item.info .text span {
+        font-size: 12px;
+    }
+    .clearing .clearingBlockMain .clearingBlock {
+        gap: 26px;
+    }
+    input, textarea, button {
+        padding: 15px 20px;
+    }
+    .clearing .clearingBlock .item.fields form {
+        gap: 10px;
+    }
+    .clearing .clearingBlock .item.fields button {
+        font-size: 12px;
+    }
+    .howWorks .howWorksBlock span._title {
+        font-size: 25px;
+    }
+    .howWorks .howWorksBlock {
+        gap: 28px;
+    }
+    .faq .faqBlock .info-block .item {
+        padding: 16px;
+        font-size: 12px;
+    }
+    .faq .faqBlock .info-block {
+        gap: 15px;
+    }
+    .faq ._titleGr span {
+        font-size: 100px;
+    }
+    footer .footer .item.logo-soc .soc > a {
+        padding: 3px 24px;
+        object-position: bottom;
+    }
+    header .header nav ul li a, footer .footer .item.menu ul li {
+        font-size: 10px;
+    }
+    footer .footer .item.logo-soc .logo {
+        width: 130px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .clearing .clearingBlock .item.info img {
+        width: 135px;
+    }
+    .clearing .clearingBlock .item.info .text .nameCompany {
+        margin-top: 25px;
+    }
+    .textInfoSection .textInfoBlockSection span {
+        font-size: 22.22vw;
+    }
+    .faq ._titleGr span {
+        font-size: 27.78vw;
+    }
+    .contacts ._titleGr span {
+        font-size: 15.56vw;
+    }
+    footer {
+        margin-top: 30px;
+    }
+    .translation .translationBlock .info-block .item.arrow {
+        width: 18px;
+        height: 18px;
+    }
+    .translation .translationBlock .info-block {
+        gap: 24px;
+    }
+    .translation .translationBlock .info-block .item.receive .btnBlock a {
+        font-size: 12px;
+        word-break: break-word;
+    }
+    .translation .translationBlock .info-block .item.send, .translation .translationBlock .info-block .item.receive {
+        font-size: 12px;
+    }
+    .translation .translationBlock .info-block .item.send .qrCode {
+        width: 105px;
+        height: 105px;
+    }
+}

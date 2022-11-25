@@ -176,7 +176,7 @@ header .header nav ul li a {
     top: 0;
     width: 18px;
     font-size: 23px;
-    word-break: break-all;
+    word-break: break-word;
     text-transform: uppercase;
     transform: translateX(-100%);
 }
@@ -334,6 +334,7 @@ section:not(header):not(footer) {
     background-color: var(--bg);
     border-radius: 20px;
     text-align: center;
+    word-break: break-all;
     display: flex;
     flex-direction: column;
     gap: 28px;
@@ -367,6 +368,7 @@ section:not(header):not(footer) {
 .translation .translationBlock .info-block .item.receive .btnBlock {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 10px;
 }
 .translation .translationBlock .info-block .item.receive .btnBlock a {
