@@ -176,6 +176,9 @@
     .translation .translationBlock .info-block {
         gap: 35px;
     }
+    .preloader ._titleGr span {
+        font-size: 70px;
+    }
 }
 @media screen and (max-width: 490px) {
     body {
