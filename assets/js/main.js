@@ -32,6 +32,14 @@ window.onload = function () {
     });
 };
 
+lottie.loadAnimation({
+    container: document.getElementById('divided-heart'),
+    renderer : 'svg',
+    loop     : true,
+    autoplay : true,
+    path     : 'assets/json/preloader.json'
+});
+
 // href
 $("body").on('click', '[href*="#"]', function (e) {
 	var fixed_offset = $('header nav').height();
