@@ -393,6 +393,7 @@ section:not(header):not(footer) {
     font-weight: 500;
 }
 
+.preloaderMain,
 .preloader {
     position: fixed;
     left: 0;
@@ -406,17 +407,20 @@ section:not(header):not(footer) {
     align-items: center;
     flex-direction: column;
 }
+.loaded_hiding .preloaderMain,
 .loaded_hiding .preloader {
     transition: 0.3s opacity;
     opacity: 0;
 }
-
+.loaded .preloaderMain,
 .loaded .preloader {
     display: none;
 }
+.preloaderMain ._titleGr,
 .preloader ._titleGr {
     margin-bottom: 0;
 }
+.preloaderMain ._titleGr span,
 .preloader ._titleGr span {
     font-size: 100px;
 }
