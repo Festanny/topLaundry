@@ -140,8 +140,9 @@ header .header nav ul li a {
     flex-direction: column;
     gap: 68px;
 }
-.clearing .clearingBlock .item.info img {
+.clearing .clearingBlock .item.info #logoClearing {
     width: 220px;
+    margin: 0 auto;
 }
 .clearing .clearingBlock .item.info .text .nameCompany {
     font-size: 28px;

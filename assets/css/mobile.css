@@ -44,7 +44,7 @@
     header .header .logo span {
         font-size: 25px;
     }
-    .clearing .clearingBlock .item.info img {
+    .clearing .clearingBlock .item.info #logoClearing {
         width: 200px;
     }
     .clearing .bgLine,
@@ -87,7 +87,7 @@
     header .header .logo span {
         font-size: 20px;
     }
-    .clearing .clearingBlock .item.info img {
+    .clearing .clearingBlock .item.info #logoClearing {
         width: 150px;
     }
     section {
@@ -234,7 +234,7 @@
     ._titleGr {
         margin-bottom: -20px;
     }
-    .clearing .clearingBlock .item.info img {
+    .clearing .clearingBlock .item.info #logoClearing {
         width: 130px;
     }
     /* header .header .logo {
@@ -301,7 +301,7 @@
     }
 }
 @media screen and (max-width: 360px) {
-    .clearing .clearingBlock .item.info img {
+    .clearing .clearingBlock .item.info #logoClearing {
         width: 135px;
     }
     .clearing .clearingBlock .item.info .text .nameCompany {

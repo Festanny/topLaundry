@@ -31,6 +31,13 @@ lottie.loadAnimation({
     autoplay: true,
     path: 'assets/json/data.json'
 });
+lottie.loadAnimation({
+    container: document.getElementById('logoClearing'),
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    path: 'assets/json/data.json'
+});
 
 // href
 $("body").on('click', '[href*="#"]', function (e) {
