@@ -79,7 +79,17 @@ header .header {
     padding: 60px 0;
 }
 header .header .logo {
-    width: 300px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+header .header .logo #logoAnimate {
+    width: 54px;
+}
+header .header .logo span {
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
 }
 header .header .logo img {
     width: 100%;
