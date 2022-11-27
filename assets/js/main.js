@@ -32,6 +32,13 @@ lottie.loadAnimation({
     path: 'assets/json/data.json'
 });
 lottie.loadAnimation({
+    container: document.getElementById('logoAnimateFooter'),
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    path: 'assets/json/data.json'
+});
+lottie.loadAnimation({
     container: document.getElementById('logoClearing'),
     renderer: 'svg',
     loop: true,

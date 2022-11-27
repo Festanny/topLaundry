@@ -301,8 +301,19 @@ footer .footer .item.menu ul {
     text-align: right;
 }
 footer .footer .item.logo-soc .logo {
-    width: 300px;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    gap: 28px;
     margin-bottom: 50px;
+}
+footer .footer .item.logo-soc .logo #logoAnimateFooter {
+    width: 54px;
+}
+footer .footer .item.logo-soc .logo span {
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
 }
 footer .footer .item.logo-soc .logo img {
     width: 100%;
