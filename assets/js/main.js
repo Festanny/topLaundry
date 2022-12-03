@@ -13,6 +13,7 @@ if ($('.preloaderMain').length != 0) {
     window.onload = function () {
         window.setTimeout(function() {
             $('.preloaderMain').fadeOut()
+            $('body').css({'overflow': 'auto'})
         }, 2100)
     };
 }

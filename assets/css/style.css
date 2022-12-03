@@ -23,6 +23,7 @@ body {
 body {
     background: var(--bg) url('../img/other/bgLine.svg') no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 ul {
     margin: 0;
@@ -116,6 +117,7 @@ header .header nav ul li a {
     left: -50px;
     width: 404px;
     height: 100%;
+    background-repeat: no-repeat;
 }
 .clearing .clearingBlockMain {
     display: flex;
@@ -225,6 +227,16 @@ header .header nav ul li a {
 ._titleGr span {
     font-size: 170px;
 }
+.faq .faqBlock ._titleGr {
+    margin-bottom: -35px;
+}
+.faq .faqBlock ._titleGr span {
+    background: linear-gradient(0deg, #001414 10%, #999999);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
 .faq .faqBlock .info-block {
     display: flex;
     flex-direction: column;
@@ -321,7 +333,7 @@ footer .footer .item.logo-soc .logo img {
     object-fit: contain;
 }
 footer .footer .item.logo-soc .soc {
-    width: fit-content;
+    width: max-content;
     display: flex;
     flex-direction: column;
     gap: 13px;
