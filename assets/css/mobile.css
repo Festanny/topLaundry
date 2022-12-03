@@ -17,6 +17,9 @@
     .container {
         width: 1000px;
     }
+    .faq .faqBlock ._titleGr {
+        margin-bottom: -35px;
+    }
     ._titleGr span,
     .textInfoSection .textInfoBlockSection {
         font-size: 130px;
@@ -74,6 +77,9 @@
     header .header {
         justify-content: center;
         gap: 50px;
+    }
+    .faq .faqBlock ._titleGr {
+        margin-bottom: -25px;
     }
     /* header .header .logo {
         width: 200px;
@@ -151,6 +157,9 @@
     }
 }
 @media screen and (max-width: 580px) {
+    .faq .faqBlock ._titleGr {
+        margin-bottom: -15px;
+    }
     ._titleGr span, .textInfoSection .textInfoBlockSection {
         font-size: 75px;
     }
@@ -246,6 +255,9 @@
     body {
         font-size: 14px;
     }
+    .faq .faqBlock ._titleGr {
+        margin-bottom: -25px;
+    }
     ._titleGr span, .textInfoSection .textInfoBlockSection {
         font-size: 56px;
     }
@@ -331,6 +343,9 @@
     }
 }
 @media screen and (max-width: 360px) {
+    .faq .faqBlock ._titleGr {
+        margin-bottom: -20px;
+    }
     .clearing .clearingBlock .item.info #logoClearing {
         width: 135px;
     }
